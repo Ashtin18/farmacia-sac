@@ -20,12 +20,3 @@ def mostrar_inventario_bajo(productos, stock, limite=5):
         print("No hay productos con stock bajo.")
     
     print("=============================\n")
-
-
-# --- Datos iniciales de prueba ---
-if __name__ == "__main__":
-    productos = ["Paracetamol", "Ibuprofeno", "Amoxicilina", "Aspirina"]
-    stock = [10, 3, 6, 2]
-    
-    print("=== MÓDULO DE INVENTARIO - PRUEBA ===")
-    mostrar_inventario_bajo(productos, stock)

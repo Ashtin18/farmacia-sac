@@ -38,21 +38,3 @@ def modificar_precio(productos, precios, stock):
         print("Precio actualizado.\n")
     else:
         print("Opción inválida.\n")
-
-
-# --- Datos iniciales de prueba ---
-if __name__ == "__main__":
-    productos = ["Paracetamol", "Ibuprofeno", "Amoxicilina"]
-    precios = [2.5, 3.0, 5.5]
-    stock = [10, 8, 6]
-    
-    print("=== MÓDULO DE PRODUCTOS - PRUEBA ===")
-    mostrar_productos(productos, precios, stock)
-    
-    # Probar agregar producto
-    print("\nPrueba de agregar producto:")
-    print("(Simulando entrada: Aspirina, 4.5, 15)")
-    # agregar_producto(productos, precios, stock)  # Descomentar para prueba interactiva
-    
-    # Mostrar productos actualizados
-    # mostrar_productos(productos, precios, stock)

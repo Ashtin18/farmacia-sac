@@ -32,14 +32,3 @@ def iniciar_sesion():
     print("Demasiados intentos. Saliendo del sistema.")
     return False
 
-
-# --- Bloque de prueba del módulo ---
-if __name__ == "__main__":
-    print("=== PRUEBA DEL MÓDULO DE LOGIN ===\n")
-    
-    acceso = iniciar_sesion()
-    
-    if acceso:
-        print("\n✅ Acceso concedido. Puede continuar con el sistema.")
-    else:
-        print("\n❌ Acceso denegado. Intente más tarde.")
