@@ -46,7 +46,7 @@ def realizar_venta(productos, precios, stock):
         print("           COMPROBANTE DE PAGO")
         print("            FARMACIA SAC")
         print("="*50)
-        print(f"Fecha: {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}")
+        print(f"Fecha: {datetime.now()}")
         print("-"*50)
         print(f"{'PRODUCTO':<20} {'CANT':<6} {'P.UNIT':<10} {'SUBTOTAL':<10}")
         print("-"*50)
